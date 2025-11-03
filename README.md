@@ -165,3 +165,26 @@ lifeNode.startMining();
 
 // Get node information
 console.log(lifeNode.getNodeInfo());
+Gold Liquidity Contract
+
+The AGOLD token has a fixed supply of 37,867,890,284 tokens with:
+
+· Fixed Supply: No inflation
+· Full Gold Backing: $11.045 trillion reserves
+· Liquidity Locked: Supply cannot be altered
+· Transparent Backing: Verifiable gold reserves
+
+📊 API Endpoints
+
+· GET /blockchain/gold-info - Gold backing information
+· GET /wallet/:address/life-extension - Calculate life extension
+· POST /mine/with-stake - Mine with life stake
+· GET /consensus/fee-calculation - Calculate transaction fees
+
+🔒 Security Features
+
+· Proof of Life consensus mechanism
+· Gold-backed stable token (AGOLD)
+· Fixed supply economics
+· Elliptic curve cryptography
+· Digital transaction signing
