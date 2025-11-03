@@ -87,3 +87,19 @@ License
 MIT License
 
 ```
+# Initialize git repository
+git init
+
+# Add all files
+git add .
+
+# Initial commit
+git commit -m "Initial commit: AGT Blockchain with multi-token support"
+
+# Add your GitHub repository
+git remote add origin https://github.com/davidgomadza/agt-blockchain.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
+
