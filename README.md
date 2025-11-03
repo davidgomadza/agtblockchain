@@ -103,3 +103,46 @@ git remote add origin https://github.com/davidgomadza/agt-blockchain.git
 git branch -M main
 git push -u origin main
 
+# Advanced Genetic Synthesis Technology (AGT) Blockchain
+
+A revolutionary blockchain with Proof of Life consensus and gold-backed tokens. 8000 AGT extends human life by 8000 years (valued at $8.4 trillion), with transactions fees in Bitcoinayt (BTCYT = $1) and AGOLD tokens fully backed by $11.045 trillion in gold reserves.
+
+## 🧬 Proof of Life Consensus
+
+- **8000 AGT = 8000 years** of life extension
+- **Current Value**: $8.4 trillion for 8000 AGT ($1.05 billion per AGT)
+- **Mining Power**: Proportional to life extension stake
+- **Minimum Stake**: 8000 AGT required for mining
+
+## 💰 Gold Backing
+
+- **AGOLD Supply**: Fixed at 37,867,890,284 tokens
+- **Gold Reserves**: 
+  - American Reserve Bank: $11.018 trillion
+  - Indian Gold Vouchers: $27 billion
+  - **Total Backing**: $11.045 trillion
+- **Value per AGOLD**: Approximately $291.67
+
+## 🪙 Token Economics
+
+1. **AGT** - Advanced Genetic Synthesis Technology (Life Extension)
+2. **BTCYT** - Bitcoinayt ($1 per token, used for fees)
+3. **AGOLD** - Gold-backed token (Fixed supply, fully backed)
+4. **S96t'** - Sealofapprovalis7628396t' S96t'
+5. **BTC** - Bitcoin
+6. **GTPS** - Global Transaction Payment Solution
+
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Start regular node
+npm start
+
+# Start Proof of Life mining node
+npm run life-node
+
+# Start miner with BTCYT fees
+npm run miner
