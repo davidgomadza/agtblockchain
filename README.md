@@ -250,3 +250,20 @@ git push https://[YOUR_TOKEN]@github.com/davidgomadza/agt-blockchain.git main
 
 # Force push if needed (use carefully)
 git push -f origin main
+# Check remote status
+git remote -v
+
+# Check branch status
+git branch -a
+
+# View commit history
+git log --oneline
+
+# Verify files are pushed
+git ls-remote origin
+# Clone your repository in a new location to test
+cd /tmp
+git clone https://github.com/davidgomadza/agt-blockchain.git
+cd agt-blockchain
+npm install
+npm start
