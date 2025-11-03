@@ -1,0 +1,30 @@
+{
+  "name": "agt-blockchain",
+  "version": "1.0.0",
+  "description": "Advanced Genetic Synthesis Technology Blockchain - Multi-token blockchain ecosystem",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "miner": "node src/miner.js"
+  },
+  "keywords": ["blockchain", "cryptocurrency", "tokens", "AGT"],
+  "author": "David Gomadza",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4",
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidgomadza/agt-blockchain.git"
+  }
+}
