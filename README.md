@@ -188,3 +188,65 @@ The AGOLD token has a fixed supply of 37,867,890,284 tokens with:
 · Fixed supply economics
 · Elliptic curve cryptography
 · Digital transaction signing
+# Navigate to your project directory
+cd agt-blockchain
+
+# Initialize git repository
+git init
+
+# Add all files to staging
+git add .
+
+# Make initial commit
+git commit -m "feat: Complete AGT Blockchain with Proof of Life consensus, gold-backed tokens, and wallet integration
+
+- Proof of Life Consensus: 8000 AGT = 8000 years life extension
+- Gold-backed token system with $11.045T reserves
+- Indian Reserve Bank Gold Voucher: 28678902843867890285176283280davidgomadza ($2B)
+- American Reserve Bank Gold Voucher: 286789071853824867890856321481792davidgomadza ($2B)
+- Bitcoinayt fee system (BTCYT = $1)
+- Multi-token gold backing for AGT, AGOLD, BTCYT, S96t', BTC, GTPS
+- Your wallet integration: J6IJNHEKBAAFDHMPLIMEEEJBODGCHMPFIBKFMCNAGNFNGEOAHJEB
+- Smart contracts for liquidity and gold verification
+- Complete blockchain ecosystem with mining and transactions"
+
+# Add your GitHub repository as remote origin
+git remote add origin https://github.com/davidgomadza/agt-blockchain.git
+
+# Rename branch to main and push
+git branch -M main
+git push -u origin main
+agt-blockchain/
+├── package.json
+├── README.md
+├── .gitignore
+├── config/
+│   └── config.js
+├── src/
+│   ├── index.js
+│   ├── miner.js
+│   ├── lifeNode.js
+│   ├── YourWalletManager.js
+│   └── core/
+│       ├── Blockchain.js
+│       ├── Consensus.js
+│       ├── Wallet.js
+│       ├── SmartContract.js
+│       ├── GoldVoucherSystem.js
+│       ├── GoldLiquidityContract.js
+│       ├── AllTokenGoldContract.js
+│       ├── EnhancedBlockchain.js
+│       └── YourWalletManager.js
+└── tests/
+    └── blockchain.test.js
+# If remote already exists, remove it first
+git remote remove origin
+
+# Then add again
+git remote add origin https://github.com/davidgomadza/agt-blockchain.git
+
+# If you have authentication issues, use personal access token
+git push https://[YOUR_TOKEN]@github.com/davidgomadza/agt-blockchain.git main
+
+# Force push if needed (use carefully)
+git push -f origin main
