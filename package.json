@@ -1,5 +1,5 @@
 {
-  "name": "agt-blockchain",
+  "name": "agtblockchain",
   "version": "1.0.0",
   "description": "Advanced Genetic Synthesis Technology Blockchain - Multi-token blockchain ecosystem",
   "main": "src/index.js",
