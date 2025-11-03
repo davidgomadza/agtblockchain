@@ -146,3 +146,22 @@ npm run life-node
 
 # Start miner with BTCYT fees
 npm run miner
+Fee Structure
+
+· Base Fee: 0.01 BTCYT ($0.01)
+· Fee Token: Bitcoinayt (BTCYT) valued at $1
+· Priority: Normal (1x), High (2x), Critical (5x)
+
+🧪 Example Life Node
+
+```javascript
+const LifeNode = require('./src/lifeNode');
+
+// Create node with life stake
+const lifeNode = new LifeNode("your-secret-phrase", 8000);
+
+// Start mining with life extension stake
+lifeNode.startMining();
+
+// Get node information
+console.log(lifeNode.getNodeInfo());
