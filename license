@@ -1,0 +1,12 @@
+MIT LICENSE
+
+## Deployment Commands
+
+```bash
+# Initialize and push to GitHub
+git init
+git add .
+git commit -m "feat: AGT Blockchain with Proof of Life consensus, gold-backed AGOLD, and Bitcoinayt fee system"
+git branch -M main
+git remote add origin https://github.com/davidgomadza/agt-blockchain.git
+git push -u origin main
