@@ -267,3 +267,43 @@ git clone https://github.com/davidgomadza/agt-blockchain.git
 cd agt-blockchain
 npm install
 npm start
+# Make sure you're in the project directory
+cd agt-blockchain
+
+# Run the deployment script
+node deploy.js
+# Manual deployment
+git init
+git add .
+git commit -m "feat: Complete AGT Blockchain with Proof of Life consensus, gold-backed tokens, and wallet integration
+
+- Proof of Life Consensus: 8000 AGT = 8000 years life extension
+- Gold-backed token system with $11.045T reserves
+- Indian Reserve Bank Gold Voucher: 28678902843867890285176283280davidgomadza ($2B)
+- American Reserve Bank Gold Voucher: 286789071853824867890856321481792davidgomadza ($2B)
+- Bitcoinayt fee system (BTCYT = $1)
+- Multi-token gold backing for AGT, AGOLD, BTCYT, S96t', BTC, GTPS
+- Your wallet integration: J6IJNHEKBAAFDHMPLIMEEEJBODGCHMPFIBKFMCNAGNFNGEOAHJEB
+- Smart contracts for liquidity and gold verification
+- Complete blockchain ecosystem with mining and transactions"
+
+git remote add origin https://github.com/davidgomadza/agt-blockchain.git
+git branch -M main
+git push -u origin main
+# Clone to verify
+cd /tmp
+git clone https://github.com/davidgomadza/agt-blockchain.git
+cd agt-blockchain
+npm install
+npm start
+Your wallet integration: J6IJNHEKBAAFDHMPLIMEEEJBODGCHMPFIBKFMCNAGNFNGEOAHJEB
+- Smart contracts for liquidity and gold verification
+- Complete blockchain ecosystem with mining and transactions"
+Complete blockchain implementation
+✅ Proof of Life consensus
+✅ Gold-backed token system
+✅ Real gold vouchers
+✅ Your wallet integration
+✅ Smart contracts
+✅ API endpoints
+✅ Documentation
